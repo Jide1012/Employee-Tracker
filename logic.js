@@ -88,13 +88,13 @@ const promptEmployee = [
         message: 'what is the employee\'s last name?'
     },
     {
-        type: 'input',
+        type: 'list',
         name: 'roleid',
         choices: roleArr,
         message: 'what is the employee\'s role?'
     },
     {
-        type: 'input',
+        type: 'list',
         name: 'managerid',
         choices: empArr,
         message: 'who is the employee\'s manager? (could be null)'
